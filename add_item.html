@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Inventory | Suncity Metals</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="logo">Suncity Metals and Tubes</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="add_item.html">Add Inventory</a>
+<a href="view_items.html">View Inventory</a>
+</nav>
+</header>
+
+<section class="form-section">
+<h2>Add Inventory Item</h2>
+
+<form id="itemForm">
+
+<label>Item Name</label>
+<select id="name" required>
+<option value="">Select Item</option>
+<option>MS Sheet 2mm</option>
+<option>MS Sheet 3mm</option>
+<option>SS Sheet 1mm</option>
+<option>SS Sheet 2mm</option>
+<option>GI Pipe 1 inch</option>
+<option>GI Pipe 2 inch</option>
+<option>Square Tube 1x1</option>
+<option>Square Tube 2x2</option>
+<option>Round Pipe 1 inch</option>
+<option>Round Pipe 2 inch</option>
+<option>Angle Bar 25x25</option>
+<option>Angle Bar 50x50</option>
+<option>Flat Bar 25mm</option>
+<option>Flat Bar 50mm</option>
+<option>Hex Bolt M8</option>
+<option>Hex Bolt M10</option>
+<option>Nut M8</option>
+<option>Nut M10</option>
+<option>Cutting Disc</option>
+<option>Grinding Disc</option>
+<option>Other</option>
+</select>
+
+<label>Category</label>
+<select id="category" required>
+<option value="">Select Category</option>
+<option>Steel Sheets</option>
+<option>Metal Tubes</option>
+<option>Pipes</option>
+<option>Hardware Parts</option>
+<option>Fasteners</option>
+<option>Tools</option>
+<option>Other</option>
+</select>
+
+<label>Quantity</label>
+<input type="number" id="qty" required>
+
+<label>Supplier</label>
+<select id="supplier" required>
+<option value="">Select Supplier</option>
+<option>Rajasthan Steel Traders</option>
+<option>Metro Metals</option>
+<option>Global Tubes Supply</option>
+<option>Shree Hardware</option>
+<option>Industrial Fasteners Ltd</option>
+<option>Prime Metal Works</option>
+</select>
+
+<button type="submit">Save Record</button>
+
+</form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
